@@ -15,11 +15,12 @@ function StopwatchApp() {
         <input
           type="text"
           value={titleInput}
-          placeholder="Enter stopwatch title"
+          placeholder=" "
           onChange={(e) => setTitleInput(e.target.value)}
         />
         <button onClick={handleAddTimer}>Add Stopwatch</button>
       </div>
+    <div>
 
       <div className="stopwatch-list">
         {timer.map((timer) => (
