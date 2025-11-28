@@ -9,17 +9,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 5px solid;
-    border-radius: 50px;;
+    border: 10px solid;
+    border-radius: 40px;;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
 }
 .display{
     font-size: 5rem;
     font-weight: bold;
-    font-family:monospace;
-    color:hsl(0,0%, 30%);
-    text-shadow: 2px 2px 2px hsl(0%, 0%, 0.75);
+    font-family: monospace;
+    color:hsl(0,0%, 32%);
+    text-shadow: 2px 2px 2px hsl(0%, 0%, 0.80);
     margin-bottom: 20px;
 }
 .controls button{
